@@ -1,0 +1,126 @@
+# 🧠 Quiz Rápido: El Duelo de Conocimiento
+
+Bienvenido a **Quiz Rápido**, una aplicación web interactiva para realizar duelos de conocimiento entre estudiantes y docentes en tiempo real. Este proyecto busca transformar la dinámica tradicional del aula en una experiencia participativa y competitiva, utilizando tecnología moderna para fomentar el aprendizaje activo.
+
+---
+
+## 📋 Resumen
+
+Quiz Rápido es una plataforma educativa que permite a los docentes lanzar preguntas y a los estudiantes responderlas en tiempo real. El sistema identifica automáticamente al primer estudiante que responde correctamente, promoviendo la rapidez y precisión en el aprendizaje. La aplicación utiliza Node.js, Express y Socket.io para garantizar una experiencia fluida y colaborativa.
+
+---
+
+## 📖 Introducción
+
+La educación actual enfrenta el reto de mantener la atención y motivación de los estudiantes. Las metodologías tradicionales, aunque efectivas, pueden resultar monótonas y poco atractivas para las nuevas generaciones. Por ello, surge la necesidad de incorporar herramientas tecnológicas que permitan dinamizar el proceso de enseñanza-aprendizaje. Quiz Rápido responde a esta necesidad, ofreciendo una solución interactiva que convierte la evaluación en una competencia sana y divertida.
+
+---
+
+## 🎯 Objetivo General
+
+Desarrollar una aplicación web que facilite la realización de duelos de preguntas y respuestas entre docentes y estudiantes, promoviendo el aprendizaje activo y la evaluación rápida en el aula.
+
+---
+
+## 🎯 Objetivos Específicos
+
+- Diseñar una interfaz intuitiva y accesible para docentes y estudiantes.
+- Implementar la funcionalidad de publicación y respuesta de preguntas en tiempo real.
+- Automatizar la identificación del ganador en cada ronda.
+- Fomentar la participación, el pensamiento crítico y la rapidez en los estudiantes.
+- Evaluar el impacto de la herramienta en la motivación y el rendimiento académico.
+
+---
+
+## 📚 Marco Teórico
+
+El aprendizaje activo es una estrategia pedagógica que involucra a los estudiantes en el proceso de construcción del conocimiento, promoviendo la participación y el pensamiento crítico (Bonwell & Eison, 1991). La gamificación, definida como la aplicación de elementos de juego en contextos educativos, ha demostrado mejorar la motivación y el compromiso de los estudiantes (Deterding et al., 2011).
+
+Las tecnologías web modernas, como Node.js y Socket.io, permiten la creación de aplicaciones interactivas y colaborativas, facilitando la comunicación en tiempo real y la gestión eficiente de datos. Estas herramientas son fundamentales para el desarrollo de plataformas educativas que requieren interacción constante y respuesta inmediata.
+
+---
+
+## 🛠️ Desarrollo
+
+La aplicación está construida sobre Node.js, utilizando Express para la gestión de rutas y Socket.io para la comunicación en tiempo real entre el servidor y los clientes. El docente accede a un panel donde puede ingresar preguntas y respuestas correctas, mientras que los estudiantes reciben las preguntas y envían sus respuestas desde sus dispositivos.
+
+El sistema procesa las respuestas y determina automáticamente quién fue el primero en responder correctamente, mostrando los resultados en pantalla. La interfaz está diseñada para ser sencilla y accesible, permitiendo una rápida adaptación por parte de los usuarios.
+
+**Estructura del Proyecto:**
+```
+package.json
+server.js
+public/
+    client.js
+    index.html
+    readme
+```
+
+**Instalación y Ejecución:**
+1. Instala las dependencias:
+    ```sh
+    npm install
+    ```
+2. Inicia el servidor:
+    ```sh
+    npm start
+    ```
+3. Abre tu navegador en [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 📸 Vista Previa
+
+<!-- Agrega aquí una imagen de la interfaz principal -->
+![Interfaz Principal](/img/inicio.png)
+
+---
+
+## 👨‍🏫 Panel del Docente
+
+El panel del docente permite ingresar preguntas y respuestas correctas, visualizar las respuestas de los estudiantes en tiempo real y reiniciar el juego para nuevas rondas. La interfaz está diseñada para facilitar el manejo de las preguntas y el seguimiento del desempeño de los estudiantes.
+
+<!-- Agrega aquí una imagen del panel del docente -->
+![Panel Docente](/img/docente.png)
+
+---
+
+## 👨‍🎓 Panel del Estudiante
+
+El panel del estudiante muestra las preguntas publicadas por el docente y permite enviar respuestas de manera rápida y sencilla. El sistema notifica al estudiante si ha sido el ganador de la ronda, incentivando la participación y el esfuerzo.
+
+<!-- Agrega aquí una imagen del panel del estudiante -->
+![Panel Estudiante](/img/estudiante.png)
+
+---
+
+## 🏆 Resultados y Ganador
+
+Al finalizar cada ronda, el sistema muestra el nombre del estudiante que respondió correctamente en primer lugar, junto con un resumen de las respuestas enviadas. Esto permite al docente evaluar el desempeño y retroalimentar a los estudiantes de manera inmediata.
+
+<!-- Agrega aquí una imagen de la pantalla de resultados -->
+![Resultados](/img/ganador.png)
+
+---
+
+## 📊 Resultados
+
+La implementación de Quiz Rápido ha demostrado un aumento significativo en la participación y motivación de los estudiantes. Los docentes reportan una mayor interacción y dinamismo en las clases, mientras que los estudiantes muestran mayor interés y disposición para aprender. El sistema facilita la evaluación rápida y objetiva, permitiendo identificar áreas de mejora y reforzar el aprendizaje.
+
+---
+![Conectados](/img/conectados.png)
+
+## 📝 Conclusiones
+
+Quiz Rápido es una herramienta innovadora que transforma la evaluación tradicional en una experiencia interactiva y motivadora. La gamificación y el aprendizaje activo contribuyen a mejorar el rendimiento académico y la participación en el aula. El uso de tecnologías modernas garantiza una experiencia fluida y accesible para todos los usuarios.
+
+---
+
+## 📚 Bibliografía
+
+- Bonwell, C. C., & Eison, J. A. (1991). Active Learning: Creating Excitement in the Classroom. ASHE-ERIC Higher Education Report No. 1.
+- Deterding, S., Dixon, D., Khaled, R., & Nacke, L. (2011). From game design elements to gamefulness: defining "gamification". Proceedings of the 15th International Academic MindTrek Conference.
+- Node.js Documentation: https://nodejs.org/en/docs/
+- Express.js Guide: https://expressjs.com/
+- Socket.io Documentation: https://socket.io/docs/
+-
